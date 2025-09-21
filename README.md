@@ -1,13 +1,13 @@
-This is a simple After Effects script for creating dynamic camera movements that sync to a specified BPM, with random movements and optional positional drifts.
+A simple AE script for dynamic camera movements synced to a specified BPM.
 
  ## :joystick: How to Use?
-- open your composition in AE
-- make sure your composition has 3D layers enabled
+- open your composition in AE and make sure it has 3D layers enabled
 - open ExtendScript and run [AECameraBeatSync](https://github.com/a13xe/AECameraBeatSync/blob/main/AECameraBeatSync.jsx) 
+- it'll create an animated camera
 
 ## :memo: Prompts:
 - BPM: Beats per minute
-- start Frame: when the animation should begin (in my case 306)
+- start Frame: when the animation should begin
 - transition duration: length of each movement in frames
 - amplitude: camera movement intensity in pixels
 - base drift range: random position variation range after each beat
